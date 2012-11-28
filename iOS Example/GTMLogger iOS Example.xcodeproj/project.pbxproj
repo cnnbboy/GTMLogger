@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D04531A1666557900E1B742 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0453191666557900E1B742 /* UIKit.framework */; };
+		1D04531C1666557900E1B742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D04531B1666557900E1B742 /* Foundation.framework */; };
+		1D04531E1666557900E1B742 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D04531D1666557900E1B742 /* CoreGraphics.framework */; };
+		1D0453241666557900E1B742 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D0453221666557900E1B742 /* InfoPlist.strings */; };
+		1D0453261666557900E1B742 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0453251666557900E1B742 /* main.m */; };
+		1D04532A1666557900E1B742 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0453291666557900E1B742 /* AppDelegate.m */; };
+		1D04532D1666557900E1B742 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D04532C1666557900E1B742 /* ViewController.m */; };
+		1D0453301666557900E1B742 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D04532E1666557900E1B742 /* ViewController.xib */; };
+		1D04533F166655C800E1B742 /* GTMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D04533E166655C800E1B742 /* GTMLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D0453151666557900E1B742 /* GTMLogger iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GTMLogger iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0453191666557900E1B742 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D04531B1666557900E1B742 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D04531D1666557900E1B742 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D0453211666557900E1B742 /* GTMLogger iOS Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GTMLogger iOS Example-Info.plist"; sourceTree = "<group>"; };
+		1D0453231666557900E1B742 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D0453251666557900E1B742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D0453271666557900E1B742 /* GTMLogger iOS Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTMLogger iOS Example-Prefix.pch"; sourceTree = "<group>"; };
+		1D0453281666557900E1B742 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D0453291666557900E1B742 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D04532B1666557900E1B742 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D04532C1666557900E1B742 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D04532F1666557900E1B742 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1D04533B166655C800E1B742 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		1D04533C166655C800E1B742 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
+		1D04533D166655C800E1B742 /* GTMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMLogger.h; sourceTree = "<group>"; };
+		1D04533E166655C800E1B742 /* GTMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMLogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D0453121666557900E1B742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D04531A1666557900E1B742 /* UIKit.framework in Frameworks */,
+				1D04531C1666557900E1B742 /* Foundation.framework in Frameworks */,
+				1D04531E1666557900E1B742 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D04530A1666557900E1B742 = {
+			isa = PBXGroup;
+			children = (
+				1D04533A166655C800E1B742 /* GTMLogger */,
+				1D04531F1666557900E1B742 /* GTMLogger iOS Example */,
+				1D0453181666557900E1B742 /* Frameworks */,
+				1D0453161666557900E1B742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D0453161666557900E1B742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D0453151666557900E1B742 /* GTMLogger iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D0453181666557900E1B742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D0453191666557900E1B742 /* UIKit.framework */,
+				1D04531B1666557900E1B742 /* Foundation.framework */,
+				1D04531D1666557900E1B742 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D04531F1666557900E1B742 /* GTMLogger iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				1D0453281666557900E1B742 /* AppDelegate.h */,
+				1D0453291666557900E1B742 /* AppDelegate.m */,
+				1D04532B1666557900E1B742 /* ViewController.h */,
+				1D04532C1666557900E1B742 /* ViewController.m */,
+				1D04532E1666557900E1B742 /* ViewController.xib */,
+				1D0453201666557900E1B742 /* Supporting Files */,
+			);
+			path = "GTMLogger iOS Example";
+			sourceTree = "<group>";
+		};
+		1D0453201666557900E1B742 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D0453211666557900E1B742 /* GTMLogger iOS Example-Info.plist */,
+				1D0453221666557900E1B742 /* InfoPlist.strings */,
+				1D0453251666557900E1B742 /* main.m */,
+				1D0453271666557900E1B742 /* GTMLogger iOS Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D04533A166655C800E1B742 /* GTMLogger */ = {
+			isa = PBXGroup;
+			children = (
+				1D04533B166655C800E1B742 /* GTMDefines.h */,
+				1D04533C166655C800E1B742 /* GTMGarbageCollection.h */,
+				1D04533D166655C800E1B742 /* GTMLogger.h */,
+				1D04533E166655C800E1B742 /* GTMLogger.m */,
+			);
+			name = GTMLogger;
+			path = ../GTMLogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D0453141666557900E1B742 /* GTMLogger iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0453331666557900E1B742 /* Build configuration list for PBXNativeTarget "GTMLogger iOS Example" */;
+			buildPhases = (
+				1D0453111666557900E1B742 /* Sources */,
+				1D0453121666557900E1B742 /* Frameworks */,
+				1D0453131666557900E1B742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GTMLogger iOS Example";
+			productName = "GTMLogger iOS Example";
+			productReference = 1D0453151666557900E1B742 /* GTMLogger iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D04530C1666557900E1B742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "小西科技";
+			};
+			buildConfigurationList = 1D04530F1666557900E1B742 /* Build configuration list for PBXProject "GTMLogger iOS Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D04530A1666557900E1B742;
+			productRefGroup = 1D0453161666557900E1B742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D0453141666557900E1B742 /* GTMLogger iOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D0453131666557900E1B742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0453241666557900E1B742 /* InfoPlist.strings in Resources */,
+				1D0453301666557900E1B742 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D0453111666557900E1B742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0453261666557900E1B742 /* main.m in Sources */,
+				1D04532A1666557900E1B742 /* AppDelegate.m in Sources */,
+				1D04532D1666557900E1B742 /* ViewController.m in Sources */,
+				1D04533F166655C800E1B742 /* GTMLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D0453221666557900E1B742 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0453231666557900E1B742 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D04532E1666557900E1B742 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D04532F1666557900E1B742 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D0453311666557900E1B742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D0453321666557900E1B742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D0453341666557900E1B742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GTMLogger iOS Example/GTMLogger iOS Example-Prefix.pch";
+				INFOPLIST_FILE = "GTMLogger iOS Example/GTMLogger iOS Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D0453351666557900E1B742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GTMLogger iOS Example/GTMLogger iOS Example-Prefix.pch";
+				INFOPLIST_FILE = "GTMLogger iOS Example/GTMLogger iOS Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D04530F1666557900E1B742 /* Build configuration list for PBXProject "GTMLogger iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0453311666557900E1B742 /* Debug */,
+				1D0453321666557900E1B742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0453331666557900E1B742 /* Build configuration list for PBXNativeTarget "GTMLogger iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0453341666557900E1B742 /* Debug */,
+				1D0453351666557900E1B742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D04530C1666557900E1B742 /* Project object */;
+}
